@@ -53,7 +53,7 @@ function getImc(peso, altura) {
 // Função para criar parágrafos
 
 function criarP() {
-    const p = document.createElement('p');
+    const p = document.createElement('p'); // Criando elemento
     return p;
 }
 
@@ -65,11 +65,11 @@ function setResultado(msg, isValid){
     const p = criarP();
 
     if (isValid) {
-        p.classList.add('paragrafo-resultado');
+        p.classList.add('paragrafo-resultado'); // Adicionando classe ao elemento
     } else {
         p.classList.add('bad');
     }
 
     p.innerHTML = msg;
-    resultado.appendChild(p);
+    resultado.appendChild(p); // Adiciona o elemento p dentro de resultado
 }
