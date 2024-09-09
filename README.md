@@ -8,7 +8,7 @@
 ---
 Uma calculadora de IMC, desenvolvida para fornecer resultados rápidos e precisos.
 
-### Como Funciona
+### Informações
 
 1. **Entrada de Dados:** O usuário insere seu peso e altura nos campos designados.
 2. **Cálculo:** Ao clicar no botão "Enviar", a fórmula do IMC é aplicada com base nos valores atribuídos.
